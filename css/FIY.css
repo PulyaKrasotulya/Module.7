@@ -1,0 +1,37 @@
+
+# универсальный для всех элементов на странице 
+
+* {color: red;} 
+
+# селектор тега
+
+article {border: 1px solid black;}
+
+# селектор класса
+
+.more {color: red;}
+
+# селектор идентификатора
+
+#news {background-color: lightskyblue;}
+
+# если нужно точно (но зачем)
+
+section#news { color: green; }
+
+# селктор атрибута
+
+[type="text"] {width: 100%;}
+
+# селектор потомка
+
+article p a {color: red;}
+
+# селеткор дочернего элемента
+
+article > div {color: red;}
+
+# групповой селектор
+
+h1, h2, h3 {color: red;} 
+
